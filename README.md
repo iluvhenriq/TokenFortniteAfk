@@ -17,18 +17,33 @@ Painel para Windows que fica jogando partidas de Fortnite sozinho: anti-AFK, ent
 ## Requisitos
 
 - Windows 10 ou 11
-- Python 3.10+ (com tkinter, que já vem no instalador oficial)
-- Bibliotecas do bot:
+- [Python 3.10+](https://www.python.org/downloads/) (marque **"Add Python to PATH"** na instalação)
+- [VS Code](https://code.visualstudio.com/)
+
+## Instalação
+
+> ⚠️ **Tem que abrir como administrador.** O Fortnite roda com permissão elevada, e sem isso o Windows bloqueia as teclas e os cliques que o macro manda pro jogo.
+
+1. Baixe o projeto: no GitHub, clique em **Code → Download ZIP** e extraia a pasta. Se preferir, use `git clone`.
+2. Feche o VS Code se ele estiver aberto. Clique com o botão direito no ícone do VS Code e escolha **Executar como administrador**.
+3. No VS Code, vá em **File → Open Folder** e abra a pasta do projeto.
+4. Abra o terminal em **Terminal → New Terminal** (ou aperte `` Ctrl+` ``) e instale as bibliotecas:
 
 ```
 pip install opencv-python numpy mss
 ```
 
-O anti-AFK e o gravador de rotas usam só a biblioteca padrão. As bibliotecas acima só são necessárias para o `br_bot.py`.
+5. No mesmo terminal, abra o painel:
+
+```
+python automacro.py
+```
+
+Nas próximas vezes, você pode abrir com o `iniciar.bat`: clique com o botão direito nele e escolha **Executar como administrador**.
 
 ## Como usar
 
-1. Abra o painel com dois cliques no `iniciar.bat`, ou rode `python automacro.py`.
+1. Abra o painel como administrador (veja a [Instalação](#instalação)).
 2. Deixe o Fortnite em janela ou em tela cheia sem bordas.
 3. **Modelos:** no jogo, aperte **F11** na tela certa pra tirar um print. Depois, no painel, selecione o modelo e clique em **Recortar** pra arrastar um retângulo em volta do elemento. Os modelos obrigatórios são o botão **JOGAR** e o **ônibus**. Os outros são opcionais e deixam o bot mais confiável.
 4. Aperte **F6** pra iniciar.
