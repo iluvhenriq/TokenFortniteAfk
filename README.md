@@ -4,7 +4,7 @@ Um programa que joga Fortnite por você enquanto você está fora. Ele entra na 
 
 ---
 
-## 🐒 Passo a passo (siga na ordem, sem pular nada)
+## 📋 Passo a passo (siga na ordem, sem pular nada)
 
 ### Passo 1: Instalar o Python
 
