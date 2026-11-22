@@ -1,0 +1,44 @@
+{
+  "only_when_focused": true,
+  "window_filter": "Fortnite",
+  "afk_min": 4.0,
+  "afk_max": 9.0,
+  "use_move": true,
+  "use_jump": true,
+  "use_crouch": true,
+  "use_mouse": true,
+  "espera_onibus": 4,
+  "pulo_segundos": 25.0,
+  "pulo_max": 70,
+  "raio_alvo": 60.0,
+  "alvo_mapa": null,
+  "tempo_queda": 80.0,
+  "giro_180": 1200,
+  "limiar": 0.8,
+  "espera_partida": 30,
+  "use_route": false,
+  "route_name": "",
+  "route_reps": 1,
+  "auto_start": true,
+  "cycle_seconds": 60.0,
+  "points": [
+    {
+      "name": "Botao JOGAR",
+      "x": 603,
+      "y": 534,
+      "delay": 2.0
+    },
+    {
+      "name": "Voltar ao lobby",
+      "x": null,
+      "y": null,
+      "delay": 3.0
+    },
+    {
+      "name": "Confirmar / Continuar",
+      "x": null,
+      "y": null,
+      "delay": 2.0
+    }
+  ]
+}
